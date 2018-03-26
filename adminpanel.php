@@ -47,7 +47,7 @@ function content(){
 					      <!-- Modal body -->
 					      <div class="modal-body">
 					      	<div class="form-group">
-							    <input class="form-control"  type="text" name="new_time" value="<?php echo "$new_date_format"; ?>">
+							    <input class="form-control"  type="text" name="new_time" value="<?php echo "$login_time"; ?>">
 							  </div>
 					       
 					       <input type="hidden" name="time_id" value="<?php echo $id; ?>">
